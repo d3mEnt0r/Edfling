@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eaeaeae8;
+    overflow: auto;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.logo{
+    width: 160px;
+    margin-bottom: 5px;
+}
+
+.navbar_links{
+    list-style: none;
+    display: flex;
+}
+
+.navbar_links a{
+    margin: 0px 15px;
+    text-decoration: none;
+    opacity: 0.8;
+    font-weight: bold;
+    color: black;
+
+}
+.navbar_links a:hover{
+    opacity: 1;
+}
+
+button{
+    margin: 0px 5px;
+    cursor: pointer;
+    border: 0px;
+    opacity: 0.9;
+}
+
+.login{
+    border-radius: 100px;
+    background-color: #F42053;
+    color: white;
+    padding: 7px 15px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+/* .login{
+    color: #F42053;
+    background-color: transparent;
+    margin-right: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+} */
+
+button:hover{
+    opacity: 1;
+}
+
+.option_bar{
+    display: none;
+}
+
+.menuItem{
+    position: fixed;
+    top: 58px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1e8;
+    font-weight: bold;
+}
+.menuItem a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+.menuItem a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media(max-width: 860px) {
+    .navbar_links{
+        display: none;
+    }
+    .option_bar{
+        display: inherit;
+        margin-right: 15px;
+    }
+    .signup{
+        padding: 5px 10px;
+    }
+}
+
+@media(min-width: 861px){
+    .menuItem{
+        display: none;
+    }
+}

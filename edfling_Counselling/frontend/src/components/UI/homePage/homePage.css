@@ -1,0 +1,61 @@
+.homePageSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+    padding-left: 100px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+
+.homePageSectionDescription{
+    width: 90%;
+    margin: 30px 0px;
+}
+
+.homePageSection button{
+    margin: 10px 0px;
+    padding: 15px 25px;
+    color: #fff;
+    width: 210px;
+    margin-right: 30px;
+    font-size: 16px;
+}
+
+.image001{
+    width: 25%;
+    margin: 20px 30px;
+}
+
+.homeChatBtn{
+    background-color: #F42053;
+}
+
+.homeAppointmentBtn{
+    background-color: #FB641B;
+}
+
+@media(max-width: 800px){
+    .image001{
+        display: none;
+    }
+    .homePageSection{
+        display: inherit;
+        text-align: center;
+        margin: 0px;
+        padding: 30px;
+        margin-top: 70px;
+    }
+    .homePageSectionDescription{
+        width: 100%;
+    }
+}
+
+@media(max-width: 600px){
+    .homePageSection{
+        font-size: 20px;
+    }
+}

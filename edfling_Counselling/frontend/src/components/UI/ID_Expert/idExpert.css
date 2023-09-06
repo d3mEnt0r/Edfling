@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.outer-container{
+    margin-top: 60px;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, #F42053 0%, #F42053 5%, #eaeaeae8 30%, #eaeaeae8 100%);
+}
+
+.outer-container *{
+    line-height: 1.5;
+    color: #595959;
+}
+
+.info{
+    padding: 20px 100px;
+    margin: 30px 100px;
+    background-color: white;
+    text-align: right;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.info *{
+    margin: 20px auto;
+}
+
+.info button{
+    margin: 40px 20px;
+    padding: 15px 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+
+.skill p{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.inner-container{
+    margin: 10px 50px;
+    padding: 40px 60px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.inner-container h2{
+    margin-bottom: 10px;
+}
+
+.chat{
+    background-color: #F42053;
+    color: white;
+}
+.message{
+    background-color: grey;
+    color: white;
+}
+.appointment{
+    background-color: #FB9752;
+    color: white;
+}
+
+@media (max-width: 800px){
+    .inner-container{
+        margin: 10px 20px;
+    }
+
+    /* .outer-container{
+        padding: 10px;
+    } */
+
+    .info button{
+        margin: 20px 10px;
+    }
+
+    .info{
+        margin: 20px;
+        padding: 20px;
+    }
+}

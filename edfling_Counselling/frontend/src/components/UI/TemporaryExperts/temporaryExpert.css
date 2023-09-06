@@ -1,0 +1,60 @@
+.tempExpertCardList{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 30px;
+}
+
+.tempExpertCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 50px 30px;
+    max-width: 30%;
+    margin: 20px;
+}
+
+.profilePicture{
+   height: 100px;
+   width: 100px;
+   background-size: cover;
+   border-radius: 100px;
+   border: 5px solid #FCC22C;
+}
+
+.browseExpertBtn{
+    padding: 15px 25px;
+    /* border-radius: 5px; */
+    background-color: #FB641B;
+    color: white;
+    opacity: 0.9;
+    margin: 30px;
+    font-size: 16px;
+}
+
+.tempExpert{
+    text-align: center;
+}
+
+@media(max-width: 900px){
+    .tempExpertCardList{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tempExpertCard{
+        width: 60%;
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 600px){
+    .tempExpertCardList{
+        padding: 10px 10px;
+    }
+    .tempExpertCard{
+        width: 80%;
+    }
+}
